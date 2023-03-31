@@ -1,16 +1,12 @@
-
 @mixin flexCol(){
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.sideSection{
-  padding: 50px;
-  background-color: rgb(223, 222, 222);
-}
-
-.mainSection{
-  padding: 50px;
+footer{
+  height: 200px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  @include flexCol();
 }
